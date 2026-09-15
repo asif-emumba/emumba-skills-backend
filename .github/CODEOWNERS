@@ -1,0 +1,9 @@
+# The backend guild owns everything in this repo.
+#
+# In the previous monorepo layout this line could only ask for review; anyone
+# with write access to the shared repo could still push here. Now the repo
+# boundary is the permission boundary — grant write on THIS repo to the backend
+# guild only, and CODEOWNERS becomes enforcement rather than convention.
+#
+# Replace the placeholder with the real GitHub team before relying on it.
+* @emumba/backend-guild
